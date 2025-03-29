@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Online Pizza Ordering</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Order Your Pizza</h1>
+		
+        <form id="pizza-form">
+            <div class="form-group">
+                <label for="pizza-size">Select Pizza Size:</label>
+                <select id="pizza-size">
+                    <option value="small">Small - Rs.800</option>
+                    <option value="medium">Medium - Rs.1000</option>
+                    <option value="large">Large - Rs.1500</option>
+                </select>
+            </div>
+			
+
+            <div class="form-group">
+                <label>Select Toppings:</label>
+                <div>
+                    <input type="checkbox" id="pepperoni" value="pepperoni">
+                    <label for="pepperoni">Pepperoni - Rs.200</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="mushrooms" value="mushrooms">
+                    <label for="mushrooms">Mushrooms - Rs.250</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="onions" value="onions">
+                    <label for="onions">Chicken - Rs.250</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sausage" value="sausage">
+                    <label for="sausage">Sausage - Rs.300</label>
+                </div>
+            </div>
+
+            <button type="button" onclick="calculateTotal()">Calculate Total</button>
+            <div id="total-price"></div>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

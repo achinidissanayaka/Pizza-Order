@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E2EAF4;
+    margin: 0;
+    padding: 0;
+	background-image: url('pizza3.jpg');
+}
+
+.container {
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    width: 50%;
+    margin: 0 auto;
+    background-color: #E2EAF4; /* Fallback color */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 10);
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #8D6F64;
+	background-color:#E8E8E8;
+}
+
+.form-group {
+    margin-bottom: 20px;
+	
+	
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#total-price {
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+	background-color: #F8E4AF;
+	
+}
